@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Reforg</title>
+        @include('libs')
+        @yield('head')
+    </head>
+    <body>
+        @yield('content')
+        @yield('footer')
+    </body>
+</html>

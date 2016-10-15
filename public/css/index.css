@@ -1,0 +1,133 @@
+.bg{
+    background-image: url("../images/index_img.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.navbar-inverse.navbar {
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,.84);
+}
+
+.modal-content{
+    background-color: rgba(0,0,0,0.9);
+}
+.row{
+    position: relative;
+}
+
+.toprow{
+    font-size: 25px;
+    color: white;
+    width: 100% !important;
+    margin-top: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-form .control-label{
+    color: rgba(255,255,255,0.5)
+}
+
+@media screen and (max-width: 1000px)
+{
+.logo{
+    display: none;
+}
+    .mobL{
+        display: block;
+    }
+    .logoMM{
+        max-width: 100%;
+    }
+    .kon1{
+        display: none;
+    }
+    .mobNav{
+        display: block;
+    }
+    .slogan{
+        margin-top: 50px;
+        font-size: 40px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media screen and (min-width: 1001px)
+{
+    .logo{
+        display: block;
+    }
+    .mobL{
+        display: none;
+    }
+    .mobNav{
+        display: none;
+    }
+    .slogan{
+        color: white;
+        font-size: 80px;
+        margin-top: 100px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.kon1{
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.logo{
+    height: 100%;
+    margin: 0px;
+    float: right;
+}
+
+
+
+.linkovi{
+    color: white;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.linkovi2{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#login_btn {
+    cursor: hand;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#login_btn:hover {
+    cursor: hand;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+.animated{
+    animation-duration: 3s;
+}
+
+@media(max-width: 772px){
+    .toprow{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .linkovi{
+        font-size: 32px;
+
+    }
+
+}
+
+
